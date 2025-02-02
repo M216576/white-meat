@@ -1,0 +1,428 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    }
+    
+    .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    
+    /* Header Styles */
+    header {
+    background-color: #39966a;
+    color: white;
+    padding: 10px 0;
+    }
+    
+    .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 0 15px;
+    }
+    
+    nav ul li a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    /* Hero Section */
+    .hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #e8f5e9;
+    }
+    
+    .hero-content {
+    flex: 1;
+    }
+    
+    .hero-image img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    }
+    
+    .stat {
+    text-align: center;
+    }
+    
+    /* Products Section */
+    .products {
+    padding: 50px 0;
+    text-align: center;
+    }
+    
+    .product-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    }
+    
+    /* Chefs Section */
+    .chefs {
+    padding: 50px 0;
+    }
+    
+    .chef-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .chef-item {
+    text-align: center;
+    margin: 10px;
+    }
+    
+    /* Newsletter Section */
+    .newsletter {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .newsletter-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    
+    .newsletter-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    }
+    
+    .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .footer-content h4 {
+    margin-bottom: 10px;
+    }
+    
+    .footer-content ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+    .footer-content ul li {
+    margin: 5px 0;
+    }
+    
+    .social-media {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .social-icon {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+    .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    
+    .product-items, .chef-items {
+    flex-direction: column;
+    align-items: center;
+    }
+    }
+    
+    .distinction {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: rgb(96, 94, 91);
+        color: white;
+        padding: 20px;
+        font-family: "IBM sans-sarif";
+        position: relative;
+        font-weight: bolder;
+      }
+      
+      .info-text {
+        text-align: left;
+        flex: 1;
+        display: flex;
+        gap: 200px;
+      }
+      
+      .info-item h3 {
+        font-size: 1em;
+        margin: 0;
+      }
+      
+      .info-item p {
+        font-size: 1em;
+        margin: 1px 0 0;
+      }
+      
+      .info-image {
+        position: absolute;
+        right: 1px;
+        bottom: 0;
+      }
+      
+      .info-image img {
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+        border-radius: 20px;
+      }
+      .chefs {
+        background-color: #f9f9f9; /* Light background for contrast */
+        padding: 40px 20px; /* Spacing around the section */
+        text-align: center; /* Center align text */
+    }
+    
+    .chefs h2 {
+        font-size: 2.5rem; /* Larger font size for the heading */
+        margin-bottom: 20px; /* Space below the heading */
+        color: #333; /* Dark color for the heading */
+    }
+    
+    .chef-items {
+        display: flex; /* Use flexbox for layout */
+        justify-content: center; /* Center the items */
+        flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        gap: 20px; /* Space between items */
+    }
+    
+    .chef-item {
+        background-color: #fff; /* White background for each chef item */
+        border: 1px solid #ddd; /* Light border */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        width: 250px; /* Fixed width for uniformity */
+        padding: 20px; /* Padding inside each item */
+        transition: transform 0.3s; /* Smooth scaling effect */
+    }
+    
+    .chef-item:hover {
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+    
+    .chef-item img {
+        width: 100%; /* Full width for images */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px 8px 0 0; /* Rounded top corners */
+    }
+    
+    .chef-item h3 {
+        font-size: 1.5rem; /* Font size for chef names */
+        margin: 10px 0; /* Space above and below the name */
+    }
+    
+    .chef-item p {
+        color: #666; /* Gray color for the description */
+        font-size: 1rem; /* Font size for descriptions */
+    }
+
+    /* Products Section Styles */
+.products {
+  background-color: #fff; /* White background for contrast */
+  padding: 40px 20px; /* Padding around the section */
+  text-align: center; /* Center align text */
+}
+
+.products h2 {
+  font-size: 2.5rem; /* Larger font size for the heading */
+  margin-bottom: 30px; /* Space below the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+.product-items {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the items */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 20px; /* Space between items */
+}
+
+.product-item {
+  background-color: #f9f9f9; /* Light background for each product item */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 250px; /* Fixed width for uniformity */
+  padding: 20px; /* Padding inside each item */
+  transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.product-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product-item img {
+  width: 100%; /* Full width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+.product-item h3 {
+  font-size: 1.5rem; /* Font size for product names */
+  margin: 10px 0; /* Space above and below the name */
+}
+
+.product-item p {
+  color: #666; /* Gray color for the description */
+  font-size: 1rem; /* Font size for descriptions */
+}
+* Meet Our Chefs Section Styles */
+.chefs {
+    background-color: #f0f4f8; /* Light background color for the section */
+    padding: 40px 20px; /* Padding around the section */
+    text-align: center; /* Center align text */
+}
+
+.chefs h2 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    color: #333; /* Dark color for the heading */
+}
+
+.chef-items {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the items */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    gap: 20px; /* Space between items */
+}
+
+.chef-item {
+    background-color: #fff; /* White background for each chef item */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 250px; /* Fixed width for uniformity */
+    padding: 20px; /* Padding inside each item */
+    transition: transform 0.3s; /* Smooth scaling effect */
+}
+
+.chef-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.chef-item img {
+    width: 100%; /* Full width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+}
+
+.chef-item h3 {
+    font-size: 1.5rem; /* Font size for chef names */
+    margin: 10px 0; /* Space above and below the name */
+}
+
+.chef-item p {
+    color: #666; /* Gray color for the description */
+    font-size: 1rem; /* Font size for descriptions */
+}
+     
+     
+     /* styles.css */
+
+/* Base styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+/* Responsive styles */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.product-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-item {
+  flex: 1 1 calc(25% - 20px); /* Adjusts based on screen size */
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .product-item {
+      flex: 1 1 calc(50% - 20px); /* 2 items on tablet */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-item {
+      flex: 1 1 100%; /* 1 item on mobile */
+  }
+}
+     
+     
+.product-item img {
+  width: 60%; /* Make the image take the full width of its container */
+  height: 100px; /* Set a fixed height */
+  object-fit: contain; /* Ensure the image covers the area without distortion */
+}
