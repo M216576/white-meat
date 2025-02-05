@@ -502,3 +502,139 @@ body {
       margin: 10px 0; /* Reduce margin on smaller screens */
   }
 }
+
+footer {
+  background-color: #f8f9fa; /* Light background for the footer */
+  padding: 20px 0; /* Padding for top and bottom */
+  color: #333; /* Dark text color */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Space between sections */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  max-width: 1200px; /* Maximum width for the footer */
+  margin: 0 auto; /* Centering the footer */
+}
+
+.about-rabbits, .useful-links, .address {
+  flex: 1; /* Equal width for each section */
+  min-width: 250px; /* Minimum width for responsiveness */
+  margin: 10px; /* Margin between sections */
+}
+
+h3 {
+  color: maroon; /* Heading color */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+p {
+  line-height: 1.6; /* Line height for readability */
+}
+
+.social-icons {
+  margin-top: 10px; /* Space above social icons */
+}
+
+.social-icons a {
+  color: #333; /* Icon color */
+  font-size: 20px; /* Icon size */
+  margin-right: 15px; /* Space between icons */
+  transition: color 0.3s; /* Transition effect for hover */
+}
+
+.social-icons a:hover {
+  color: maroon; /* Change color on hover */
+}
+
+.useful-links ul {
+  padding: 0; /* Remove default padding */
+  list-style: none; /* Remove bullets */
+}
+
+.useful-links li {
+  margin: 5px 0; /* Space between list items */
+}
+
+.address .map {
+  margin-top: 10px; /* Space above the map */
+}
+
+.address iframe {
+  width: 100%; /* Full width for responsiveness */
+  height: 150px; /* Fixed height for the map */
+}
+
+footer div:last-child {
+  text-align: center; /* Center the copyright text */
+  margin-top: 20px; /* Space above the copyright */
+  border-top: 1px solid rgba(255, 255, 255, 0.3); /* Top border */
+  padding-top: 10px; /* Padding above copyright */
+  color: #666; /* Lighter text color for copyright */
+}
+.future-quality {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  margin: 20px 0; /* Margin around the section */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+
+.future-quality h2 {
+  color: maroon; /* Heading color */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.future-quality ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  text-align: left; /* Align text to the left */
+  margin: 0 auto; /* Center the list */
+  max-width: 600px; /* Limit width for better readability */
+}
+
+.future-quality li {
+  margin: 10px 0; /* Space between list items */
+  color: #333; /* Dark text color */
+}
+
+.quality-image {
+  margin-bottom: 15px; /* Space below the image */
+}
+.future-quality {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  margin: 20px 0; /* Margin around the section */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+
+.future-quality h2 {
+  color: maroon; /* Heading color */
+  margin-bottom: 15px; /* Space below heading */
+}
+
+.quality-image {
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.quality-image img {
+  width: 80%; /* Set width to 80% of the container */
+  max-width: 600px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners for the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.future-quality ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  text-align: left; /* Align text to the left */
+  margin: 0 auto; /* Center the list */
+  max-width: 600px; /* Limit width for better readability */
+}
+
+.future-quality li {
+  margin: 10px 0; /* Space between list items */
+  color: #333; /* Dark text color */
+}
