@@ -87,3 +87,21 @@ window.onclick = function(event) {
         closeModal();
     }
 }
+document.addEventListener('DOMContentLoaded', () => {
+    const reasonItems = document.querySelectorAll('.reason-item');
+
+    reasonItems.forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            item.style.backgroundColor = '#e0f7fa'; // Light cyan on hover
+            item.style.transition = 'background-color 0.3s ease'; // Smooth transition
+        });
+
+        item.addEventListener('mouseleave', () => {
+            item.style.backgroundColor = ''; // Reset to original color
+        });
+    });
+});
+function toggleMenu() {
+    const nav = document.querySelector('nav');
+    nav.style.display = nav.style.display === 'block' ? 'none' : 'block';
+}

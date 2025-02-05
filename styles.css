@@ -638,3 +638,70 @@ footer div:last-child {
   margin: 10px 0; /* Space between list items */
   color: #333; /* Dark text color */
 }
+.why-choose-us {
+  padding: 20px;
+  background-color: #fff; /* White background for contrast */
+  margin: 20px 0; /* Margin around the section */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center; /* Center the text */
+}
+
+.why-choose-us h2 {
+  color: maroon; /* Heading color */
+  margin-bottom: 15px; /* Space below heading */
+}
+
+.reasons {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Wrap items to the next line */
+  justify-content: center; /* Center items */
+  gap: 20px; /* Space between items */
+}
+
+.reason-item {
+  background-color: #f8f9fa; /* Light background for reason items */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the item */
+  width: 250px; /* Fixed width for uniformity */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.reason-item h3 {
+  color: #333; /* Dark text color for headings */
+  margin-bottom: 10px; /* Space below heading */
+}
+
+.reason-item p {
+  color: #555; /* Slightly lighter text for descriptions */
+}
+body {
+  background-color: #F5F5DC; /* Change this color to any of the recommended colors */
+  color: #333; /* Ensure text color is dark for readability */
+}
+.reason-item {
+  background-color: #f8f9fa; /* Light background for reason items */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding inside the item */
+  width: 250px; /* Fixed width for uniformity */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+* Hide the navigation on small screens */
+nav {
+    display: none; /* Hide by default */
+}
+
+/* Show hamburger icon on small screens */
+.hamburger {
+    display: block; /* Show hamburger */
+}
+
+/* Media query for mobile devices */
+@media (min-width: 768px) {
+    nav {
+        display: block; /* Show navigation on larger screens */
+    }
+    .hamburger {
+        display: none; /* Hide hamburger on larger screens */
+    }
+}
